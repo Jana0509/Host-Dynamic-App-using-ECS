@@ -63,6 +63,7 @@ This Project demonstrates deploying the dynamic website in Elastic Container Ser
 ![image](https://github.com/user-attachments/assets/1e0f0b9f-1d05-4513-a951-82f360e72176)
 
 2. Understand of creating and build docker file and image.
+![image](https://github.com/user-attachments/assets/253749a2-4913-4a63-b843-056289e17f61)
 
 3. Create the Elastic Container Registry to store the docker image in AWS and push it from local computer.
 
