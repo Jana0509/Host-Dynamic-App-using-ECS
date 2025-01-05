@@ -59,19 +59,25 @@ This Project demonstrates deploying the dynamic website in Elastic Container Ser
 
 ### Key Learning Outcomes:
 1. Designed and Implemented the VPC from scratch with the public and private subnets for the network isolation.
+
 ![image](https://github.com/user-attachments/assets/1e0f0b9f-1d05-4513-a951-82f360e72176)
 
 2. Understand of creating and build docker file and image.
 
-3. Create the Elastic Container Registry to store the docker image in AWS and push it.
+3. Create the Elastic Container Registry to store the docker image in AWS and push it from local computer.
+
+![image](https://github.com/user-attachments/assets/1cd88286-f5fe-416e-9a1e-fb86fb315361)
 
 4. Create and configure ECS Cluster to run ECS fargate container in the private subnet in both the AZ for High availabilty and fault tolerant.
+
 ![image](https://github.com/user-attachments/assets/c921a39c-493c-4226-bd60-1da2e3b43552)
+
 ![image](https://github.com/user-attachments/assets/590f0780-f9ae-40a0-a0ed-48429e0576a4)
 
 5. Create the task defintion by providing the ECR image URI.
 
 6. Create and configure the ECS Service by providing the network configuration, Auto-Scaling groups.
+
 ![image](https://github.com/user-attachments/assets/eaee3f14-0d4b-4d85-8821-7c70248fb3ce)
 
 7. Executed database migrations using **Flyway** scripts hosted on **S3**.
@@ -81,6 +87,9 @@ This Project demonstrates deploying the dynamic website in Elastic Container Ser
 9. Deployed **TLS/SSL certificates** to ensure secure communication through **ACM**.
 
 10. Distributed traffic effectively using **ALB** with alias routing via **Route 53**.
+
+![image](https://github.com/user-attachments/assets/788d8ca3-5d2b-4623-a484-e2d7a4d83408)
+
 ![image](https://github.com/user-attachments/assets/04636b12-4b0e-446d-a440-40b277482422)
 
 ### Conclusion:
